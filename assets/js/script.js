@@ -9,3 +9,7 @@ $('contenWrapper').on("click", "envCorreo", function() {
       });
     });
   }
+function cambiar_ingredientes(){
+  $("#INGREDIENTES").toggle.Class("text-danger")
+}
+$("#INGREDIENTES").on("dblclick", cambiar_ingredientes)
